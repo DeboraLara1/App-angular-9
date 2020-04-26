@@ -19,9 +19,13 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http'
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field'
+import { MatInputModule } from '@angular/material/input'
 
 import { RedDirective } from './directivas/red.directive';
 import { ForDirective } from './directivas/for.directive';
+
 
 
 @NgModule({
@@ -47,6 +51,9 @@ import { ForDirective } from './directivas/for.directive';
     MatSnackBarModule,
     MatButtonModule,
     HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

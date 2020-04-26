@@ -29,6 +29,31 @@
       "name": "Produto de teste",
       "price": 126.5,
       "id": 6
+    },
+    {
+      "name": "Produto de teste",
+      "price": 126.5,
+      "id": 7
+    },
+    {
+      "name": "Produto de teste",
+      "price": 126.5,
+      "id": 8
+    },
+    {
+      "name": "Produto de teste",
+      "price": 126.5,
+      "id": 9
+    },
+    {
+      "name": "veio do formulario",
+      "price": "199",
+      "id": 10
+    },
+    {
+      "name": "Produto de teste",
+      "price": 126.5,
+      "id": 11
     }
   ]
 }
