@@ -17,8 +17,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { HttpClientModule } from '@angular/common/http'
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-
 
 import { RedDirective } from './directivas/red.directive';
 import { ForDirective } from './directivas/for.directive';
@@ -45,7 +45,8 @@ import { ForDirective } from './directivas/for.directive';
     MatCardModule,
     MatListModule,
     MatSnackBarModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
