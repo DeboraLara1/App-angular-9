@@ -25,6 +25,7 @@ import { MatInputModule } from '@angular/material/input'
 
 import { RedDirective } from './directivas/red.directive';
 import { ForDirective } from './directivas/for.directive';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 
 
@@ -38,7 +39,8 @@ import { ForDirective } from './directivas/for.directive';
     ProductCrudComponent,
     RedDirective,
     ForDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
