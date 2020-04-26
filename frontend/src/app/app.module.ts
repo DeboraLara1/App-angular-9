@@ -6,20 +6,22 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/templete/header/header.component';
 
-import {MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './components/templete/footer/footer.component';
 import { NavComponent } from './components/templete/nav/nav.component';
-
-
-import{MatButtonModule} from '@angular/material/button';
-import{MatCardModule} from '@angular/material/card';
-import{MatSidenavModule} from '@angular/material/sidenav';
-import{MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
+
 import { RedDirective } from './directivas/red.directive';
 import { ForDirective } from './directivas/for.directive';
-import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 
 @NgModule({
@@ -42,6 +44,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatSidenavModule,
     MatCardModule,
     MatListModule,
+    MatSnackBarModule,
     MatButtonModule
   ],
   providers: [],
