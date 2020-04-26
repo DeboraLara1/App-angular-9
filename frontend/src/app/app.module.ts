@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule,LOCALE_ID } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,11 +12,11 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatListModule} from '@angular/material/list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http'
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { FormsModule } from '@angular/forms';
@@ -31,6 +31,10 @@ import { MatSortModule } from '@angular/material/sort';
 import { RedDirective } from './directivas/red.directive';
 import { ForDirective } from './directivas/for.directive';
 
+import  localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from'@angular/common';
+
+registerLocaleData(localePt);
 
 
 @NgModule({
@@ -65,7 +69,10 @@ import { ForDirective } from './directivas/for.directive';
     MatPaginatorModule,
     MatSortModule,
   ],
-  providers: [],
+  providers: [{
+    provide:LOCALE_ID,
+    useValue: 'pt-BR'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

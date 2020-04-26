@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    
+}
+
+.edit{
+    margin-right: 6%;
+}
+
+.edit > i{
+    color: yellow;
+}
+
+.delete> i{
+    color: tomato;
+}
