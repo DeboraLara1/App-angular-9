@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC azul",
+      "name": "Caneta BIC preta",
       "price": "1.99"
     },
     {
@@ -21,9 +21,9 @@
       "id": 4
     },
     {
-      "name": "lucas viado",
-      "price": "0,00",
-      "id": 5
+      "name": "Debora Beatriz s",
+      "price": "1.20",
+      "id": 6
     }
   ]
 }
