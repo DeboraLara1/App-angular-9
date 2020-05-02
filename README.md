@@ -1,4 +1,4 @@
-#  Cadastro de produtos :octocat:
+#  Cadastro de Produtos :octocat:
 Este projeto foi desenvolvido com foco numa aplicação que possibilite o gerenciamento de (adição, edição e remoção - CRUD) de diversos produtos.
 
 O usuário que obtiver permissão podera acrescentar, editar e deletar produtos na loja onde trabalha, tais como:
